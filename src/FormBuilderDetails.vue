@@ -6,8 +6,8 @@
       <summary class="cursor-pointer">JSON</summary>
       <div class="card p-4">
         <SchemaCode
-            v-model:schema="jsonFormsSchema"
-            v-model:uischema="jsonFormsUiSchema"
+          v-model:schema="jsonFormsSchema"
+          v-model:uischema="jsonFormsUiSchema"
         />
         <!--
         :TODO emit event to send updated schema
@@ -21,17 +21,17 @@
       <summary class="cursor-pointer">Preview</summary>
       <ResizeArea>
         <div class="card p-4" style="min-height: 106px">
-            <JsonForms
-                :class="'styleA'"
-                :schema="jsonFormsSchema"
-                :uischema="jsonFormsUiSchema"
-                :data="jsonFormsData"
-                :renderers="jsonFormRenderes"
-                :ajv="ajv"
-                :i18n="{translate: createI18nTranslate(localeCatalogue)}"
-                v-if="jsonFormsSchema && jsonFormsUiSchema"
-                @change="r => jsonFormsUpdated=r"
-            />
+          <JsonForms
+            :class="'styleA'"
+            :schema="jsonFormsSchema"
+            :uischema="jsonFormsUiSchema"
+            :data="jsonFormsData"
+            :renderers="jsonFormRenderes"
+            :ajv="ajv"
+            :i18n="{translate: createI18nTranslate(localeCatalogue)}"
+            v-if="jsonFormsSchema"
+            @change="r => jsonFormsUpdated=r"
+          />
         </div>
       </ResizeArea>
 
@@ -69,9 +69,9 @@ const jsonFormsData = ref({});
 const jsonFormsUpdated = ref({});
 
 watch(props,() => {
-   jsonFormsSchema.value = props.jsonForms?.schema;
-   jsonFormsUiSchema.value = props.jsonForms?.uischema;
-   jsonFormsData.value = props.jsonForms?.data ?? {};
+  jsonFormsSchema.value = props.jsonForms?.schema;
+  jsonFormsUiSchema.value = props.jsonForms?.uischema;
+  jsonFormsData.value = props.jsonForms?.data ?? {};
 })
 
 

@@ -13,10 +13,10 @@
     </div>
 
     <FormBuilder
-        :jsonForms="jsonForms"
-        :schemaReadOnly="schemaReadOnly"
-        :key="example + (schemaReadOnly?1:0)"
-        v-if="!disableFormbuilder"
+      :jsonForms="jsonForms"
+      :schemaReadOnly="schemaReadOnly"
+      :key="example + (schemaReadOnly?1:0)"
+      v-if="!disableFormbuilder"
     />
 
     <FormBuilderDetails  :jsonForms="jsonForms" :key="(disableFormbuilder?1:0)" />
@@ -35,7 +35,7 @@ import {getExamples} from '@jsonforms/examples/src'
 
 const oe = ownExamples;//import own examples
 
-const examples = computed(() => getExamples());
+const examples = computed(() => getExamples().sort((a,b)=>a.label.toLowerCase()>b.label.toLowerCase()?1:-1));
 const example = ref('');
 const schemaReadOnly = ref(false);
 const disableFormbuilder = ref(false);
