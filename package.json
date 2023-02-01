@@ -20,6 +20,8 @@
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-typescript": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
     "typescript": "~4.5.5"
   }
 }
