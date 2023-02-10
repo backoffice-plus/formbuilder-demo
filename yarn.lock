@@ -950,30 +950,12 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
-"@backoffice-plus/formbuilder@0.0.9":
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/@backoffice-plus/formbuilder/-/formbuilder-0.0.9.tgz#c1c7b98c2c618815d952e41f467077c5085f4733"
-  integrity sha512-MiaICscAmmbtsOD2HVzashag7fbNUa/KflsN+/8cRUBCsy+cElQ+rmktS/yARAt8KuT7z4nfP7Nel/tlA/dWHw==
+"@backoffice-plus/formbuilder@0.0.17":
+  version "0.0.17"
+  resolved "https://registry.yarnpkg.com/@backoffice-plus/formbuilder/-/formbuilder-0.0.17.tgz#5e6fa05caccc813dda0803360bf4866658c1be1c"
+  integrity sha512-Huz/DyZ2waWb/M44JRdTlJEfnjKP0wzus7sdqp0PfoTFTkKNbGDVzAGV3RmGBf3Tc9nmonXCbcsebvXgKOsK7w==
   dependencies:
-    "@backoffice-plus/formbuilder" "^0.0.5"
-    "@jsonforms/core" "^3.0.0"
-    "@jsonforms/vue" "^3.0.0"
-    "@jsonforms/vue-vanilla" "^3.0.0"
-    lodash "^4.17.21"
-    mitt "^3.0.0"
-    vuedraggable "^4.1.0"
-
-"@backoffice-plus/formbuilder@^0.0.5":
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/@backoffice-plus/formbuilder/-/formbuilder-0.0.5.tgz#0581829f86425b0e606e6146f0d7ec68a4d54b68"
-  integrity sha512-axUVZ4hZP1v3E1SjrY3YszfTK8l7EzphJbRm2ulxVYyj1BZKjjZ3ghzS0kYZj78gnt7QgYSzluoJEJV0dEUmpA==
-  dependencies:
-    "@jsonforms/core" "^3.0.0"
-    "@jsonforms/vue" "^3.0.0"
-    "@jsonforms/vue-vanilla" "^3.0.0"
-    lodash "^4.17.21"
-    mitt "^3.0.0"
-    vuedraggable "^4.1.0"
+    sortablejs "^1.15.0"
 
 "@hapi/hoek@^9.0.0":
   version "9.3.0"
@@ -1051,13 +1033,6 @@
   integrity sha512-ebQ71BmgPux4oRbeh36DMGfuIant7ZBBceognlqXnc6ZYSY04RSMKTEMVFNTklc4SSoax7AM64UXO55leFbT5A==
   dependencies:
     ajv-i18n "^3.5.0"
-
-"@jsonforms/vue-vanilla@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@jsonforms/vue-vanilla/-/vue-vanilla-3.0.0.tgz#4045cf7d9594bb345924b1035a1035acbdfe57d9"
-  integrity sha512-rUOp6tDsyXMcyNOS49OLjLZQLcS+UyaNosx+ceJM3pe6aprQEG1nauClJsvQWuLPHPe19F5k5AekYidzfnOjxQ==
-  dependencies:
-    lodash "^4.17.15"
 
 "@jsonforms/vue@^3.0.0":
   version "3.0.0"
@@ -3985,11 +3960,6 @@ minipass@^3.1.1:
   dependencies:
     yallist "^4.0.0"
 
-mitt@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/mitt/-/mitt-3.0.0.tgz#69ef9bd5c80ff6f57473e8d89326d01c414be0bd"
-  integrity sha512-7dX2/10ITVyqh4aOSVI9gdape+t9l2/8QxHrFmUXu4EEUpdlxl6RudZUPZoc+zuY2hk1j7XxVroIVIan/pD/SQ==
-
 mkdirp@^0.5.6:
   version "0.5.6"
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.6.tgz#7def03d2432dcae4ba1d611445c48396062255f6"
@@ -5173,10 +5143,10 @@ sockjs@^0.3.24:
     uuid "^8.3.2"
     websocket-driver "^0.7.4"
 
-sortablejs@1.14.0:
-  version "1.14.0"
-  resolved "https://registry.yarnpkg.com/sortablejs/-/sortablejs-1.14.0.tgz#6d2e17ccbdb25f464734df621d4f35d4ab35b3d8"
-  integrity sha512-pBXvQCs5/33fdN1/39pPL0NZF20LeRbLQ5jtnheIPN9JQAaufGjKdWduZn4U7wCtVuzKhmRkI0DFYHYRbB2H1w==
+sortablejs@^1.15.0:
+  version "1.15.0"
+  resolved "https://registry.yarnpkg.com/sortablejs/-/sortablejs-1.15.0.tgz#53230b8aa3502bb77a29e2005808ffdb4a5f7e2a"
+  integrity sha512-bv9qgVMjUMf89wAvM6AxVvS/4MX3sPeN0+agqShejLU5z5GX4C75ow1O2e5k4L6XItUyAK3gH6AxSbXrOM5e8w==
 
 source-map-js@^1.0.2:
   version "1.0.2"
@@ -5667,13 +5637,6 @@ vue@^3.2.13:
     "@vue/runtime-dom" "3.2.45"
     "@vue/server-renderer" "3.2.45"
     "@vue/shared" "3.2.45"
-
-vuedraggable@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/vuedraggable/-/vuedraggable-4.1.0.tgz#edece68adb8a4d9e06accff9dfc9040e66852270"
-  integrity sha512-FU5HCWBmsf20GpP3eudURW3WdWTKIbEIQxh9/8GE806hydR9qZqRRxRE3RjqX7PkuLuMQG/A7n3cfj9rCEchww==
-  dependencies:
-    sortablejs "1.14.0"
 
 watchpack@^2.4.0:
   version "2.4.0"
