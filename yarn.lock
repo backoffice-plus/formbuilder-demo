@@ -950,10 +950,10 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
-"@backoffice-plus/formbuilder@0.0.17":
-  version "0.0.17"
-  resolved "https://registry.yarnpkg.com/@backoffice-plus/formbuilder/-/formbuilder-0.0.17.tgz#5e6fa05caccc813dda0803360bf4866658c1be1c"
-  integrity sha512-Huz/DyZ2waWb/M44JRdTlJEfnjKP0wzus7sdqp0PfoTFTkKNbGDVzAGV3RmGBf3Tc9nmonXCbcsebvXgKOsK7w==
+"@backoffice-plus/formbuilder@0.0.18":
+  version "0.0.18"
+  resolved "https://registry.yarnpkg.com/@backoffice-plus/formbuilder/-/formbuilder-0.0.18.tgz#ce211b6d2a332019d34dc5330e59ac3e7ebd5f8c"
+  integrity sha512-9V5FOdaeCmL+TWtsrrE3SH457Mwq6nqhVki933Qgwg+x0kfwgqeudBxVZKJndo5P7Mx1Uy8Sl2H49CYES/jrBA==
   dependencies:
     sortablejs "^1.15.0"
 
@@ -1033,6 +1033,13 @@
   integrity sha512-ebQ71BmgPux4oRbeh36DMGfuIant7ZBBceognlqXnc6ZYSY04RSMKTEMVFNTklc4SSoax7AM64UXO55leFbT5A==
   dependencies:
     ajv-i18n "^3.5.0"
+
+"@jsonforms/vue-vanilla@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@jsonforms/vue-vanilla/-/vue-vanilla-3.0.0.tgz#4045cf7d9594bb345924b1035a1035acbdfe57d9"
+  integrity sha512-rUOp6tDsyXMcyNOS49OLjLZQLcS+UyaNosx+ceJM3pe6aprQEG1nauClJsvQWuLPHPe19F5k5AekYidzfnOjxQ==
+  dependencies:
+    lodash "^4.17.15"
 
 "@jsonforms/vue@^3.0.0":
   version "3.0.0"
