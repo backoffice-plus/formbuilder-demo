@@ -7,7 +7,7 @@ yarn install
 
 ### Compiles and hot-reloads for development
 ```
-yarn serve
+yarn dev
 ```
 
 ### Compiles and minifies for production
@@ -15,9 +15,9 @@ yarn serve
 yarn build
 ```
 
-### Lints and fixes files
+### preview start a local web server that serves the built solution from ./dist for previewing
 ```
-yarn lint
+yarn preview
 ```
 
 ### Customize configuration

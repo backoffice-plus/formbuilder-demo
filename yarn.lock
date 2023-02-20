@@ -950,10 +950,10 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
-"@backoffice-plus/formbuilder@^0.0.21":
-  version "0.0.21"
-  resolved "https://registry.yarnpkg.com/@backoffice-plus/formbuilder/-/formbuilder-0.0.21.tgz#5d6cc3df95ecc99d027cf452ecbbf396e651f44f"
-  integrity sha512-8higDLOvFwT1XygnYjC+jOfPwlSgW0BVWSWzPZ1f4YOao9tkT3iqWOWj+V8p02qzlLH3HPutI2Z+nNLy9F7fKw==
+"@backoffice-plus/formbuilder@0.0.22":
+  version "0.0.22"
+  resolved "https://registry.yarnpkg.com/@backoffice-plus/formbuilder/-/formbuilder-0.0.22.tgz#183151ac0cc38f8efd1e6c43067e5f1a17c104c2"
+  integrity sha512-pEzcMEvAGFxKh7zCMKhkbKp5t6pgx9EHjeY3zmInDn8b+7w3/RUn28Mv+hBmltieptrpmfFBvuQOewwAK9SzzQ==
   dependencies:
     sortablejs "^1.15.0"
 
