@@ -40,14 +40,17 @@ import {resolveSchema} from "@backoffice-plus/formbuilder";
 import {getExampleFromUrl, getUrl} from "./lib";
 import {vanillaRenderers} from "@jsonforms/vue-vanilla";
 import {boplusVueVanillaRenderers} from "@backoffice-plus/formbuilder";
+import {htmlTool, htmlRendererEntry} from "./tools/htmlTool";
 
 const tools = [
     ...defaultTools,
+  htmlTool,
 ]
 
 const jsonFormsRenderers = Object.freeze([
   ...vanillaRenderers,
   ...boplusVueVanillaRenderers,
+  ...[htmlRendererEntry]
 ]);
 
 const oe = [];//import own examples

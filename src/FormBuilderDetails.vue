@@ -67,6 +67,7 @@ import ResizeArea from "./ResizeArea.vue";
 import {useJsonforms} from "@backoffice-plus/formbuilder";
 import {vanillaRenderers} from "@jsonforms/vue-vanilla";
 import {boplusVueVanillaRenderers} from "@backoffice-plus/formbuilder";
+import {htmlRendererEntry} from "./tools/htmlTool";
 
 const localeCatalogue = {}
 
@@ -85,6 +86,7 @@ const newKey = computed(() => JSON.stringify([schema.value,uischema.value]));
 const jsonFormRenderesMore = Object.freeze([
   ...vanillaRenderers,
   ...boplusVueVanillaRenderers,
+  htmlRendererEntry
 ]);
 
 watch(() => props.jsonForms, () => {
