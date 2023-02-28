@@ -950,11 +950,12 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
-"@backoffice-plus/formbuilder@0.0.22":
-  version "0.0.22"
-  resolved "https://registry.yarnpkg.com/@backoffice-plus/formbuilder/-/formbuilder-0.0.22.tgz#183151ac0cc38f8efd1e6c43067e5f1a17c104c2"
-  integrity sha512-pEzcMEvAGFxKh7zCMKhkbKp5t6pgx9EHjeY3zmInDn8b+7w3/RUn28Mv+hBmltieptrpmfFBvuQOewwAK9SzzQ==
+"@backoffice-plus/formbuilder@0.0.23":
+  version "0.0.23"
+  resolved "https://registry.yarnpkg.com/@backoffice-plus/formbuilder/-/formbuilder-0.0.23.tgz#8c8a2958c12a548f092352d4cd3cb9242d359157"
+  integrity sha512-SdsykCtgZ+nxwmlzw+D7bm66XYIEmZnwhJ/n+OhVY6yH932dISe1YIsA72EpsLsQi7fId+wYC3QelJDIHdQf5A==
   dependencies:
+    diff "^5.1.0"
     sortablejs "^1.15.0"
 
 "@esbuild/android-arm64@0.16.17":
@@ -2975,6 +2976,11 @@ didyoumean@^1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/didyoumean/-/didyoumean-1.2.2.tgz#989346ffe9e839b4555ecf5666edea0d3e8ad037"
   integrity sha512-gxtyfqMg7GKyhQmb056K7M3xszy/myH8w+B4RT+QXBQsvAOdc3XymqDDPHx1BgPgsdAA5SIifona89YtRATDzw==
+
+diff@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/diff/-/diff-5.1.0.tgz#bc52d298c5ea8df9194800224445ed43ffc87e40"
+  integrity sha512-D+mk+qE8VC/PAUrlAU34N+VfXev0ghe5ywmpqrawphmVZc1bEfn56uo9qpyGp1p4xpzOHkSW4ztBd6L7Xx4ACw==
 
 dir-glob@^3.0.1:
   version "3.0.1"
