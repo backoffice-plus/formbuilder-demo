@@ -950,10 +950,10 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
-"@backoffice-plus/formbuilder@0.0.23":
-  version "0.0.23"
-  resolved "https://registry.yarnpkg.com/@backoffice-plus/formbuilder/-/formbuilder-0.0.23.tgz#8c8a2958c12a548f092352d4cd3cb9242d359157"
-  integrity sha512-SdsykCtgZ+nxwmlzw+D7bm66XYIEmZnwhJ/n+OhVY6yH932dISe1YIsA72EpsLsQi7fId+wYC3QelJDIHdQf5A==
+"@backoffice-plus/formbuilder@^0.0.25":
+  version "0.0.25"
+  resolved "https://registry.yarnpkg.com/@backoffice-plus/formbuilder/-/formbuilder-0.0.25.tgz#b3e621f9d8b9669a7c48915090c0bae019a408d2"
+  integrity sha512-sxPcxpKx+0bV7sr4ddyKlJfI8LT2gDzsLMeq/pFSlS3wkTvgVt9IkgOX1AbRVGC6EQzhP4HfVav6CTtgldQBig==
   dependencies:
     diff "^5.1.0"
     sortablejs "^1.15.0"
@@ -1325,6 +1325,11 @@
   version "7.0.11"
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.11.tgz#d421b6c527a3037f7c84433fd2c4229e016863d3"
   integrity sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==
+
+"@types/lodash@^4.14.191":
+  version "4.14.191"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.191.tgz#09511e7f7cba275acd8b419ddac8da9a6a79e2fa"
+  integrity sha512-BdZ5BCCvho3EIXw6wUCXHe7rS53AIDPLE+JzwgT+OsJk53oBfbSmZZ7CX4VaRoN78N+TJpFi9QPlfIVNmJYWxQ==
 
 "@types/mime@*":
   version "3.0.1"
